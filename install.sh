@@ -4,7 +4,7 @@ rm -rf package deployment-package.zip
 mkdir package
 
 # Install dependencies into the 'package' folder
-pip install -r requirements.txt --target ./package
+pip3 install -r requirements.txt --target ./package
 
 # Zip the dependencies
 cd package
